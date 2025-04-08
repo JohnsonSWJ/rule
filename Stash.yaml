@@ -40,37 +40,6 @@ proxy-groups:
   - {name: 台湾节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"}
   - {name: 韩国节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇰🇷|韩国|(\b(KR|Korea)\b)"}
 
-rules:
-  - RULE-SET,Reject,REJECT
-  - DOMAIN-SUFFIX,emby.bangumi.ca,Emby
-  - DOMAIN-SUFFIX,cavps.eu.org,Emby
-  - DOMAIN-SUFFIX,emby.younoyes.com,Emby
-  - DOMAIN-SUFFIX,cf.sfcj.org,Emby
-  - DOMAIN-SUFFIX,zox.show,Emby
-  - DOMAIN-SUFFIX,emby.oceancloud.asia,Emby
-  - DOMAIN-SUFFIX,nsfw.oceancloud.asia,Emby
-  - DOMAIN-SUFFIX,anycast.media.cloudaria.net,Emby
-  - RULE-SET,Github,GitHub
-  - RULE-SET,Youtube,YouTube
-  - RULE-SET,Google,Google
-  - RULE-SET,Twitter,推特消息
-  - RULE-SET,Telegram,电报消息
-# - PROCESS-NAME,Telegram,REJECT-DROP # For Telegram macOS
-  - RULE-SET,Steam,游戏平台
-  - RULE-SET,Epic,游戏平台
-  - RULE-SET,Bahamut,国际媒体
-  - RULE-SET,Netflix,国际媒体
-  - RULE-SET,Disney,国际媒体
-  - RULE-SET,PrimeVideo,国际媒体
-  - RULE-SET,HBO,国际媒体
-  - RULE-SET,TikTok,国际媒体
-  - RULE-SET,ProxyGFW,国外网站
-  - RULE-SET,AppleProxy,国外网站
-  - RULE-SET,Apple,DIRECT
-  - RULE-SET,Lan,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,兜底分流
-  
 rule-providers:
   # 局域网   
   Lan: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Lan.list}
@@ -102,3 +71,34 @@ rule-providers:
   TikTok: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/TikTok.list}
   # 代理网站
   ProxyGFW: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/ProxyGFW.list}
+
+rules:
+  - RULE-SET,Reject,REJECT
+  - DOMAIN-SUFFIX,emby.bangumi.ca,Emby
+  - DOMAIN-SUFFIX,cavps.eu.org,Emby
+  - DOMAIN-SUFFIX,emby.younoyes.com,Emby
+  - DOMAIN-SUFFIX,cf.sfcj.org,Emby
+  - DOMAIN-SUFFIX,zox.show,Emby
+  - DOMAIN-SUFFIX,emby.oceancloud.asia,Emby
+  - DOMAIN-SUFFIX,nsfw.oceancloud.asia,Emby
+  - DOMAIN-SUFFIX,anycast.media.cloudaria.net,Emby
+  - RULE-SET,Github,GitHub
+  - RULE-SET,Youtube,YouTube
+  - RULE-SET,Google,Google
+  - RULE-SET,Twitter,推特消息
+  - RULE-SET,Telegram,电报消息
+# - PROCESS-NAME,Telegram,REJECT-DROP # For Telegram macOS
+  - RULE-SET,Steam,游戏平台
+  - RULE-SET,Epic,游戏平台
+  - RULE-SET,Bahamut,国际媒体
+  - RULE-SET,Netflix,国际媒体
+  - RULE-SET,Disney,国际媒体
+  - RULE-SET,PrimeVideo,国际媒体
+  - RULE-SET,HBO,国际媒体
+  - RULE-SET,TikTok,国际媒体
+  - RULE-SET,ProxyGFW,国外网站
+  - RULE-SET,AppleProxy,国外网站
+  - RULE-SET,Apple,DIRECT
+  - RULE-SET,Lan,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,兜底分流
