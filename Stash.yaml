@@ -14,7 +14,7 @@ subscribe-url:
 proxy-providers:
   Subscribe:
     interval: 86400
-    url: http://your-service-provider
+    url: https://sub.arcline.io/smb/tenant/protocol/dfc042d9bb1a4e33fd11da1e72e669c5
     benchmark-timeout: 5
     benchmark-url: http://1.1.1.1/generate_204
 
