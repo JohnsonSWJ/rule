@@ -36,6 +36,8 @@ rules:
   - DOMAIN-SUFFIX,emby.younoyes.com,Emby
   - DOMAIN-SUFFIX,cf.sfcj.org,Emby
   - DOMAIN-SUFFIX,zox.show,Emby
+  - DOMAIN-SUFFIX,free.28.al,Emby
+  - DOMAIN-SUFFIX,emby.ucloudhost.top,Emby
   - DOMAIN-SUFFIX,emby.oceancloud.asia,Emby
   - DOMAIN-SUFFIX,nsfw.oceancloud.asia,Emby
   - DOMAIN-SUFFIX,anycast.media.cloudaria.net,Emby
