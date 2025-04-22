@@ -163,19 +163,19 @@ proxy-groups:
 rules:
   - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
   - DOMAIN-SUFFIX,unifans.io,直连
-  - DOMAIN-SUFFIX,emby.bangumi.ca,Emby  #Nya
-  - DOMAIN-SUFFIX,emby.younoyes.com,Emby  #youno
-  - DOMAIN-SUFFIX,cf.sfcj.org,Emby  #非越
-  - DOMAIN-SUFFIX,zox.show,Emby  #zox
-  - DOMAIN-SUFFIX,free.28.al,Emby  #起点
-  - DOMAIN_SUFFIX,cf.carlos.trade,Emby  #特卡
-  - DOMAIN-SUFFIX,emby.yunti.online,Emby  #云梯
-  - DOMAIN-SUFFIX,embycf.xytx.dpdns.org,Emby  #入机
-  - DOMAIN-SUFFIX,emby.ucloudhost.top,Emby  #Kiku
-  - DOMAIN-SUFFIX,emby.oceancloud.asia,Emby  #云海
-  - DOMAIN-SUFFIX,nsfw.oceancloud.asia,Emby  #云海Porn
-  - DOMAIN-SUFFIX,anycast.media.cloudaria.net,Emby  #Prism Media
-  - DOMAIN-SUFFIX,cavps.eu.org,Emby  #鹅服
+  - DOMAIN-SUFFIX,emby.bangumi.ca,Emby #Nya
+  - DOMAIN-SUFFIX,emby.younoyes.com,Emby #youno
+  - DOMAIN-SUFFIX,cf.sfcj.org,Emby #非越
+  - DOMAIN-SUFFIX,zox.show,Emby #zox
+  - DOMAIN-SUFFIX,free.28.al,Emby #起点
+  - DOMAIN_SUFFIX,cf.carlos.trade,Emby #特卡
+  - DOMAIN-SUFFIX,emby.yunti.online,Emby #云梯
+  - DOMAIN-SUFFIX,embycf.xytx.dpdns.org,Emby #入机
+  - DOMAIN-SUFFIX,emby.ucloudhost.top,Emby #Kiku
+  - DOMAIN-SUFFIX,emby.oceancloud.asia,Emby #云海
+  - DOMAIN-SUFFIX,nsfw.oceancloud.asia,Emby #云海Porn
+  - DOMAIN-SUFFIX,anycast.media.cloudaria.net,Emby #Prism Media
+  - DOMAIN-SUFFIX,cavps.eu.org,Emby #鹅服
   - RULE-SET,private_domain,直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 默认代理
