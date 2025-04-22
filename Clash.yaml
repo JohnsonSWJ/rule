@@ -168,7 +168,7 @@ rules:
   - DOMAIN-SUFFIX,cf.sfcj.org,Emby #非越
   - DOMAIN-SUFFIX,zox.show,Emby #zox
   - DOMAIN-SUFFIX,free.28.al,Emby #起点
-  - DOMAIN_SUFFIX,cf.carlos.trade,Emby #特卡
+  - DOMAIN-SUFFIX,cf.carlos.trade,Emby #特卡
   - DOMAIN-SUFFIX,emby.yunti.online,Emby #云梯
   - DOMAIN-SUFFIX,embycf.xytx.dpdns.org,Emby #入机
   - DOMAIN-SUFFIX,emby.ucloudhost.top,Emby #Kiku
