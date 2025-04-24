@@ -155,8 +155,8 @@ proxy-groups:
   - {name: 🇹🇼 台湾节点, type: select, include-all: true, filter: "(?i)台|tw|taiwan"}
   - {name: 🇸🇬 狮城节点, type: select, include-all: true, filter: "(?i)新加|狮|sg|singapore"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日|东京|jp|japan"}
-  - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)美|盐|洛杉矶|凤凰城|英|us|unitedstates"}
-  - {name: 🇰🇷 韩国节点, type: select, include-all: true, filter: "(?i)韩|kr|korea"}
+  - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)美|盐|凤凰城|洛杉矶|圣何塞|us|unitedstates"}
+  - {name: 🇰🇷 韩国节点, type: select, include-all: true, filter: "(?i)韩|英|kr|korea"}
   - {name: 🌐 全部节点, type: select, include-all: true}
 
 # 规则匹配
